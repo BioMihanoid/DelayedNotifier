@@ -1,0 +1,13 @@
+db:
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres
+  db_name: delayed_notifier_service
+  ssl_mode: disable
+
+server:
+  port: 8080
+
+rabbitmq:
+  port: 8081
